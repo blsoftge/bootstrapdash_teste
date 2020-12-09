@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BLSoft</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="template/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="template/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="../template/vendors/codemirror/codemirror.css">
+    <link rel="stylesheet" href="../template/vendors/codemirror/ambiance.css">
+    <link rel="stylesheet" href="../template/vendors/pwstabs/jquery.pwstabs.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="template/css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="template/images/favicon.png" />
+</head>
+
+<body>
+    <div class="container-scroller">
+        <div th:insert="fragments/menu_navbar :: nav"></div>
+        <div th:insert="fragments/content :: content"></div>
+        <div th:insert="fragments/navbar :: nav"></div>
+        <div th:insert="fragments/footer :: footer"></div>
+    </div>
+
+    <script src="template/vendors/js/vendor.bundle.base.js"></script>
+    <script src="template/js/off-canvas.js"></script>
+    <script src="template/js/hoverable-collapse.js"></script>
+    <script src="template/js/template.js"></script>
+    <script src="template/js/settings.js"></script>
+    <script src="template/js/todolist.js"></script>
+</body>
+
+</html>
