@@ -19,11 +19,12 @@
     <link rel="stylesheet" href="template/css/vertical-layout-light/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="template/images/favicon.png" />
+    <link href="css/blsoft.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-scroller">
-        <div th:insert="fragments/menu_navbar :: nav"></div>
+        <div th:insert="fragments/side-bar :: nav"></div>
         <div th:insert="fragments/content :: content"></div>
         <div th:insert="fragments/navbar :: nav"></div>
         <div th:insert="fragments/footer :: footer"></div>
